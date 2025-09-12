@@ -64,7 +64,7 @@ public class PracticeProblemTest {
    void productTest6() {
      Class<?> testClass = PracticeProblem.class;
      try {
-         Class<?>[] cArg = {int.class, double.class};
+         Class<?>[] cArg = {double.class, double.class};
          Method method = testClass.getDeclaredMethod("product", cArg);
          // Enter code here
          assertEquals(-9.2, (double)method.invoke(null, -4, 2.3), 0.1);
@@ -82,7 +82,7 @@ public class PracticeProblemTest {
    void productTest5() {
      Class<?> testClass = PracticeProblem.class;
      try {
-         Class<?>[] cArg = {int.class, double.class};
+         Class<?>[] cArg = {double.class, double.class};
          Method method = testClass.getDeclaredMethod("product", cArg);
          // Enter code here
          assertEquals(7.0, (double)method.invoke(null, -2, -3.5), 0.1);
@@ -100,7 +100,7 @@ public class PracticeProblemTest {
    void productTest4() {
      Class<?> testClass = PracticeProblem.class;
      try {
-         Class<?>[] cArg = {int.class, double.class};
+         Class<?>[] cArg = {double.class, double.class};
          Method method = testClass.getDeclaredMethod("product", cArg);
          // Enter code here
          assertEquals(0.0, (double)method.invoke(null, 0, 0.0), 0.1);
@@ -118,7 +118,7 @@ public class PracticeProblemTest {
    void productTest3() {
      Class<?> testClass = PracticeProblem.class;
      try {
-         Class<?>[] cArg = {int.class, double.class};
+         Class<?>[] cArg = {double.class, double.class};
          Method method = testClass.getDeclaredMethod("product", cArg);
          // Enter code here
          assertEquals(0.0, (double)method.invoke(null, -2, 0), 0.1);
@@ -136,7 +136,7 @@ public class PracticeProblemTest {
    void productTest2() {
      Class<?> testClass = PracticeProblem.class;
      try {
-         Class<?>[] cArg = {int.class, double.class};
+         Class<?>[] cArg = {double.class, double.class};
          Method method = testClass.getDeclaredMethod("product", cArg);
          // Enter code here
          assertEquals(0.0, (double)method.invoke(null, 0, 14), 0.1);
@@ -154,7 +154,7 @@ public class PracticeProblemTest {
    void productTest1() {
      Class<?> testClass = PracticeProblem.class;
      try {
-         Class<?>[] cArg = {int.class, double.class};
+         Class<?>[] cArg = {double.class, double.class};
          Method method = testClass.getDeclaredMethod("product", cArg);
          // Enter code here
          assertEquals(7.0, (double)method.invoke(null, 2, 3.5), 0.1);
