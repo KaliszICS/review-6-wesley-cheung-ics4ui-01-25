@@ -1,35 +1,32 @@
-
 class Notes {
 	public static void main(String[] args) {
-		System.out.println(result);
-		System.out.println(add(5, 6));
-
-		System.out.println(addS("root"));
-		printString("This will print");
+		int num = add(5, 3); //the values you provide to the function are called arguments
+		System.out.println(num);
+		System.out.println(add(1, 3));
+		printString("Hello");
 	}
 
-	//create a function/method definition it needs to be outside of your main but inside your class
-	//return type and return must match
-	
-	public static int add(int addNum1, int addNum2) {
-		int additionResult;
-		additionResult = addNum1 + addNum2;
-		return additionResult; //What will come back from the fuction and replace it.  Returns stop your function
+	//All function and method definitions should be outside your main method
+	//function definitions DO NOT RUN unless they are called.
+
+	//public - your function can be accessed by anyone
+	//static - your function can be used without creating an object (this is makes it a function not a method)
+	//int - return type, the return of your function must match this data type
+	//add - function name
+	//int num1, int num2 - parameters, variable declarations that the arguments will be assigned to (inputs)
+	public static int add(int num1, int num2) {
+		int result;
+		result = num1 + num2;
+		return result; //replaces where the function was called with this value
+		//when you return, your function stops
 	}
 
-	public static String addS(String word) {
-		String newWord;
-		newWord = word + "s";
-		return newWord;
-	}
-
-	//does not return anything
+	//void return type means you don't NEED a return
 	public static void printString(String word) {
 		System.out.println(word);
 	}
 
-	//parameters and return type don't need to match
-	public static boolean concatAll(int num, String word, char c) {
+	public static boolean doesRandomThings(int num, String word, char c) {
 		return true;
 	}
 }
