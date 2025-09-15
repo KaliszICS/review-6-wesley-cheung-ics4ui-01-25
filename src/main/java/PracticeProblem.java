@@ -30,10 +30,10 @@ public class PracticeProblem {
 		return result;
 	}
 	public static boolean isEven(int num) {
-		return (num%2==0);
+		return (Math.abs(num%2)==0);
 	}
 	public static boolean isOdd(int num) {
-		return (num%2==1);
+		return (Math.abs(num%2)==1);
 	}
 	public static boolean isPositive(int num) {
 		return (num>0);
