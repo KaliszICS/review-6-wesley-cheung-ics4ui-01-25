@@ -29,16 +29,16 @@ public class PracticeProblem {
 		result = sentence1.length()+sentence2.length();
 		return result;
 	}
-	public static int isEven(int num) {
+	public static boolean isEven(int num) {
 		return (num%2==0);
 	}
-	public static int isOdd(int num) {
+	public static boolean isOdd(int num) {
 		return (num%2==0);
 	}
-	public static int isPositive(int num) {
+	public static boolean isPositive(int num) {
 		return (num>0);
 	}
-	public static int isNegative(int num) {
+	public static boolean isNegative(int num) {
 		return (num<0);
 	}
 
