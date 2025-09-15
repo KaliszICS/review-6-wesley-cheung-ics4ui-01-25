@@ -26,7 +26,7 @@ public class PracticeProblem {
 	}
 	public static int combinedLength(String sentence1, String sentence2) {
 		int result;
-		result = num1.length()+num2.length();
+		result = sentence1.length()+sentence2.length();
 		return result;
 	}
 	public static int isEven(int num) {
